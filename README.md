@@ -12,6 +12,10 @@ in a different submodule of the package.
 ## Usage
 This will create two executables:
 
+## Installation
+julia> app add MyMultiApp
+
+
   - `main-app` that runs `julia -m MyMultiApp`
   - `cli-app` that runs `julia -m MyMultiApp.CLI`
 
