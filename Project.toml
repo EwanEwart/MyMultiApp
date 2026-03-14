@@ -1,0 +1,11 @@
+# Project.toml
+
+# standard fields here
+name = "MyMultiApp"
+uuid = "dcdfa19b-d671-4609-ade4-9920c9983e6b"
+version = "0.1.0"
+authors = ["EwanEwart <EwanEwart@HotMail.Co.UK>"]
+
+[apps]
+main-app = {}
+cli-app = { submodule = "CLI" }
